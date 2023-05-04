@@ -1,5 +1,7 @@
 body{
 	margin: 0;
+	background-color: yellow;
+	text-align: center;
 }
 
 .img-thumbnail{
@@ -11,11 +13,51 @@ body{
 	margin-left: 30px;
 }
 
+.img-carrusel{
+	width: 100%;
+	height: 350px;
+}
+
 #carouselExampleCaptions{
-	height: auto;
-	height: 500px;
+	width: 100%;
+	height: 350px;
 }
 
 .carousel-indicators{
 	button: 0;
 }
+
+.text-color{
+	color: darkred;
+}
+
+#contenedor{
+	text-align: center;
+	width: 100%;
+	margin-top: 50px;
+}
+
+#contenedor2{
+	margin-top: 25px;
+	display: flex;
+	text-align: center;
+	width: 100%;
+}
+
+.card{
+	margin-left: auto;
+	margin-right: auto;
+	border: red solid 5px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 3px 3px red;
+}
+
+.h2{
+	text-decoration: underline;
+	text-decoration-color: red;
+}
+
+#contenedor3{
+	margin-top: 50px;
+}
+

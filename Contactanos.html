@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contactanos</title>
+	<link rel="stylesheet" type="text/css" href="estilos/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="estilos/Contactanos.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <img src="imagenes/logo.png.jpg" class="img-thumbnail" alt="">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="SobreNosotros.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="Contactanos.html">Contactanos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <h2 id="contacto">Contactanos a cualquier de nuestras sucursales</h2>
+    <div id="contenedor">
+      <div id="cartas">
+        <div class="card" style="width: 18rem;">
+          <img src="imagenes/veterinaria.png" class="card-img-top">
+          <div class="card-body">
+            <p class="card-text">Col. Renacimiento Cuauhtémoc 06500 Ciudad de México, CDMX</p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="imagenes/veterinaria.png" class="card-img-top">
+          <div class="card-body">
+            <p class="card-text">18 Zacatecas Ciudad de México, Cd. de México</p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="imagenes/veterinaria.png" class="card-img-top">
+          <div class="card-body">
+            <p class="card-text">Polanco II Secc 11530 Ciudad de México, CDMX</p>
+          </div>
+        </div>
+      </div>
+      <div id="formulario">
+        <form>       
+          <fieldset disabled>
+            <legend>Mensaje electronico</legend>
+            <div class="mb-3">
+              <label for="disabledTextInput" class="form-label">Correo electronico</label>
+              <input type="text" id="disabledTextInput" class="form-control" placeholder="Pon tu correo electronico" disabled>
+            </div>
+            <div class="mb-3">
+              <label for="disabledSelect" class="form-label">Escoje tu consultorio mas cercano</label>
+              <select id="disabledSelect" class="form-select">
+                <option>Polanco CDMX</option>
+                <option>Zacatecas CDMX</option>
+                <option>Cuahutémoc CDMX</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>
+                <label class="form-check-label" for="disabledFieldsetCheck">
+                  Corrovora tus respuestas
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <img src="imagenes/logo.png.jpg" class="img-thumbnail" alt="">
+    <p>Creado por contenido educacional</p>
+    <p>Hecho por: Eric Villa</p>
+    <a href="mailto:eric@gmail.com">Correo de apoyo</a>
+    <br>
+    <a href="tel:+55 12345678">Telefono de ayuda</a>
+  </footer>
+
+  <script type="text/javascript" src="javascripts/bootstrap.min.js"></script>
+  <script type="text/javascript" src="javascripts/main.js"></script>
+</body>
+</html>
